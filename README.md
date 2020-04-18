@@ -11,13 +11,15 @@ Paper
 <a href="https://arxiv.org/abs/2004.01180" rel="Paper"><img src="thumb.jpg" alt="Paper" width="100%"></a>
 
 ## Overview
-This is the author's reference implementation of the multi-image reflection removal using TensorFlow described in:
-"Learning to See Through Obstructions"
+This is the co-author's reference implementation of the multi-image reflection removal using TensorFlow described in:
+"Learning to See Through Obstructions", based on Yu Lu Liu an these authors:
+
 [Yu-Lun Liu](http://www.cmlab.csie.ntu.edu.tw/~yulunliu/), [Wei-Sheng Lai](https://www.wslai.net/), [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/), [Yung-Yu Chuang](https://www.csie.ntu.edu.tw/~cyy/), [Jia-Bin Huang](https://filebox.ece.vt.edu/~jbhuang/) (National Taiwan University & Google & Virginia Tech & University of California at Merced & MediaTek Inc.)
 in CVPR 2020.
 If you find this code useful for your research, please consider citing the following paper.
 
 Further information please contact [Yu-Lun Liu](http://www.cmlab.csie.ntu.edu.tw/~yulunliu/).
+
 
 ## Requirements setup
 * [TensorFlow](https://www.tensorflow.org/):
@@ -27,9 +29,10 @@ Further information please contact [Yu-Lun Liu](http://www.cmlab.csie.ntu.edu.tw
 * [Pre-trained PWC-Net](https://github.com/philferriere/tfoptflow)
     * Please overwrite `tfoptflow/model_pwcnet.py` and `tfoptflow/model_base.py` using the ones in this repository.
 
-* To download the pre-trained models:
-
-    * [ckpt](https://www.cmlab.csie.ntu.edu.tw/~yulunliu/ObstructionRemoval_/ckpt.zip)
+* To download the optimized pre-trained models for embedded devices like REBOTNIX GUSTAV and REBOTNIX Visiontools.
+   
+   # UPLOAD IN PROGRESS
+    * [ckpt](https://rebotnix.com/downloads/modelstore/obstructionremove_18042020.zip)
 
 ## Data Preparation
 Please prepare 5 frames and follow the naming rule `XXXXX_I[0-4].png` as shown in `imgs` folder, and change the folder path in `run_reflection.py` or `test_fence.py`.

@@ -10,7 +10,7 @@ This is the co-author's reference implementation of the multi-image reflection r
 
 [Yu-Lun Liu](http://www.cmlab.csie.ntu.edu.tw/~yulunliu/), [Wei-Sheng Lai](https://www.wslai.net/), [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/), [Yung-Yu Chuang](https://www.csie.ntu.edu.tw/~cyy/), [Jia-Bin Huang](https://filebox.ece.vt.edu/~jbhuang/) (National Taiwan University & Google & Virginia Tech & University of California at Merced & MediaTek Inc.)
 
-This forked version focus on optimastions on low energy devices like NVIDIA JETSON NANO, TX2 and AGX XAVIER.
+This forked version focus on optimisations for low energy hardware devices like REBOTNIX GUSTAV (NANO), (TX2), (AGX XAVIER) which are based on NVIDIA JETSON Plattform.
 
 in CVPR 2020.
 If you find this code useful for your research, please consider citing the following paper.

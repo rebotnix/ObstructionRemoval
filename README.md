@@ -28,8 +28,9 @@ Further information please contact [Yu-Lun Liu](http://www.cmlab.csie.ntu.edu.tw
 
 * To download the optimized pre-trained models for embedded devices like REBOTNIX GUSTAV and REBOTNIX Visiontools.
    
-   # UPLOAD IN PROGRESS
-    * [ckpt](https://rebotnix.com/downloads/modelstore/obstructionremove_18042020.zip)
+   # UPLOAD PRETRAINED IN PROGRESS (Available Soon)
+    * TENSORFLOW 1.10.0 is required and please make sure that you use the protobuf installation based on NVIDIA Jetpack 4.3 (other version will not work)
+[ckpt](https://rebotnix.com/downloads/modelstore/obstructionremove_18042020.zip)
 
 ## Data Preparation
 Please prepare 5 frames and follow the naming rule `XXXXX_I[0-4].png` as shown in `imgs` folder, and change the folder path in `run_reflection.py` or `test_fence.py`.

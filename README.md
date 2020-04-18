@@ -1,5 +1,3 @@
-# [CVPR 2020] Learning to See Through Obstructions
-
 <img src='./teaser.png' width=1000>
 
 We present a learning-based approach for removing unwanted obstructions, such as window reflections, fence occlusions or raindrops, from a short sequence of images captured by a moving camera. Our method leverages the motion differences between the background and the obstructing elements to recover both layers. Specifically, we alternate between estimating dense optical flow fields of the two layers and reconstructing each layer from the flowwarped images via a deep convolutional neural network. The learning-based layer reconstruction allows us to accommodate potential errors in the flow estimation and brittle assumptions such as brightness consistency. We show that training on synthetically generated data transfers well to real images. Our results on numerous challenging scenarios of reflection and fence removal demonstrate the effectiveness of the proposed method.
@@ -11,6 +9,9 @@ This is the co-author's reference implementation of the multi-image reflection r
 "Learning to See Through Obstructions", based on Yu Lu Liu an these authors:
 
 [Yu-Lun Liu](http://www.cmlab.csie.ntu.edu.tw/~yulunliu/), [Wei-Sheng Lai](https://www.wslai.net/), [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/), [Yung-Yu Chuang](https://www.csie.ntu.edu.tw/~cyy/), [Jia-Bin Huang](https://filebox.ece.vt.edu/~jbhuang/) (National Taiwan University & Google & Virginia Tech & University of California at Merced & MediaTek Inc.)
+
+This forked version focus on optimastions on low energy devices like NVIDIA JETSON NANO, TX2 and AGX XAVIER.
+
 in CVPR 2020.
 If you find this code useful for your research, please consider citing the following paper.
 
@@ -32,6 +33,9 @@ Further information please contact [Yu-Lun Liu](http://www.cmlab.csie.ntu.edu.tw
 
 ## Data Preparation
 Please prepare 5 frames and follow the naming rule `XXXXX_I[0-4].png` as shown in `imgs` folder, and change the folder path in `run_reflection.py` or `test_fence.py`.
+
+# [CVPR 2020]
+# Learning to See Through Obstructions
 
 ## Usage
 * Run your own sequence (reflection removal):

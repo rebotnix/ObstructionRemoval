@@ -15,7 +15,7 @@ This forked version focus on optimastions on low energy devices like NVIDIA JETS
 in CVPR 2020.
 If you find this code useful for your research, please consider citing the following paper.
 
-Further information please contact [Yu-Lun Liu](http://www.cmlab.csie.ntu.edu.tw/~yulunliu/).
+Further information for running this model on low energy devices onpremise or in the cloud, please contact [Gary Hilgemann] at(https://rebotnix.com).
 
 
 ## Requirements setup
